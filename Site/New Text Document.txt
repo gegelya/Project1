@@ -1,0 +1,23 @@
+https://developer.mozilla.org/uk/docs/Web/CSS/position
+https://github.com/airbnb/css
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://demos.scotch.io/visual-guide-to-css3-flexbox-flexbox-playground/demos/
+
+<div class="project-bg" style="
+    padding: 130px 40px;
+">
+			<h3 class="project-heading">Project</h3>
+			<p class="project-text">Lorem ipsum dolor sit amet, consectetur 
+				adipiscing elit. Quisque ex elit, vestibulum 
+				hendrerit purus vel, ullamcorper finibus erat. 
+				Ut sem arcu, hendrerit ut ligula in, finibus 
+				venenatis elit. </p>
+				<!--как объеденить все фото в один контейнер но не див-->
+				
+				
+				<div class="test22" style="
+    display: flex;
+    justify-content: center;
+"><img class="image-project-block" src="img/project-img2.png" alt=""><img class="image-project-block" src="img/project-img1.png" alt=""><img class="image-project-block" src="img/project-img3.png" alt=""></div>
+				<a href="#" class="btn-bottom">VIEW ALL</a>
+		</div>
