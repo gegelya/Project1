@@ -1,0 +1,376 @@
+body {
+	color: #ffffff;
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 14px;
+}
+
+.wrapper {
+	max-width: 1160px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.flex-align-center {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-wrap {
+	position: fixed;
+	left: 0;
+	right: 0;
+}
+
+header {
+	position: absolute;
+	top: 29px;
+	right: 0;
+	left: 0;
+	z-index: 99;
+}
+
+
+.logo-site {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 150px;
+	max-height: 40px;
+	padding: 10px 20px;
+	border: 2px solid #f3af7f;
+	color: #f3af7f;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+	text-transform: uppercase;
+	/* Text style for "SITE NAME" */
+	letter-spacing: 0.14px;
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+}
+
+.menu_item {
+	margin-left: 20px;
+}
+
+.menu-link {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 16px;
+	text-transform: uppercase;
+	/* Text style for "H, OME" */
+	color: #ffffff;
+	letter-spacing: 0.12px;
+	/* Text style for "ABOUT" */
+	letter-spacing: 0.12px;
+}
+
+.menu-link:hover {
+	color: #f3af7f;
+}
+
+h1 {
+	/* Style for "WELCOME" */
+	padding-top: 100px;
+	margin-bottom: 50px;
+	color: #f3af7f;
+	font-family: 'Roboto', sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 16px;
+	letter-spacing: 0.48px;
+	text-transform: uppercase;
+}
+
+h1 .wcol {
+	color: #ffffff;
+}
+
+.sm {
+	max-width: 700px;
+	color: #ffffff;
+	margin: auto;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+	/* Text style for "L, orem ip" */
+	letter-spacing: 0.56px;
+}
+
+/*banner*/
+.banner {
+	position: relative;
+	text-align: center;
+	padding: 30px;
+	max-height: 800px;
+	background: url(../img/header_img.png) no-repeat center top/ cover;
+}
+
+
+.folow-us {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+	text-transform: uppercase;
+	/* Text style for "FOLLOW US" */
+	letter-spacing: 0.14px;
+}
+
+.or {
+/* Style for "OR" */
+	width: 21px;
+	height: 11px;
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 16px;
+	margin: inherit;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	/* Text style for "O, R" */
+	letter-spacing: 0.14px;
+}
+
+.img-media {
+	width: 100px;
+	height: 50px;
+	display: block;
+	margin: inherit;
+	padding-top: 20px;
+}
+
+/*Почему стили на саму кнопку и текст пишутся в одном блоке*/
+.btn {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 20px;
+	max-width: 200px;
+	max-height: 70px;
+	padding: 10px 20px;
+	border: 2px solid #ffffff;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 16px;
+	text-transform: uppercase;
+	/* Text style for "S, IGN UP" */
+	letter-spacing: 0.12px;
+}
+
+.btn:hover {
+	background-color: #EF9157;
+	color: #fff;
+	border-color:#EF9157;
+}
+
+.contact {
+	position: absolute;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	left: 0;
+	right: 0;
+	background-color: #000000;
+}
+
+.bg {
+	height: 425px;
+	background-color: #120d11;
+} 
+
+.dif-color {
+	color: #f3af7f;
+}
+
+.about-us {
+	position: absolute;
+	margin-top: 50px;
+	font-size: 30px;
+}
+
+.text-about-us {
+	display: flex;
+	justify-content: center;
+	max-width: 770px;
+	position: absolute;
+	top: 130px;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 1.26px;
+	text-align: center;
+	color: #c7c7c7;
+}
+
+.horizontal-line {
+	position: absolute;
+	top: 360px;
+	width: 550px;
+	size: 2px;
+	align-content: center;
+	border-color: #f3ad7d;
+	/*как поставить цвет на горизонтальную полоску?*/
+}
+
+.our-services-bg {
+	max-height: 420px;
+	padding: 30px;
+	background: url(../img/our-services-bg.png) no-repeat center top/ cover;
+}
+
+.our-services {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	position: relative;
+	left: 200px;
+	max-width: 346px;
+	text-align: right;
+	color: #c7c7c7;
+	}
+
+.head-of-services {
+	font-size: 30px;
+	line-height: 16px;
+	letter-spacing: 1.5px;
+	color: #c7c7c7;
+	}
+
+.services-item {
+	margin-bottom: 25px;
+	margin-top: 25px;
+	font-size: 18px;
+	line-height: 16px;
+	letter-spacing: 0.9px;
+	color: #f3ae7d;
+}
+
+.services-text {
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.6px;
+	color: #c7c7c7;
+}
+
+.icons-services {
+	position: absolute;
+	list-style: none;
+	left: 430px;
+	margin: 30px;
+}
+
+.icons-services-style {
+	margin: 20px;
+}
+/* когда убираю высоту фона кнопка почему то улетает ниже блока*/
+.project-bg {
+	text-align: center;
+	height: 520px;
+	padding: 50px;
+	background: url(../img/project-bg.png) no-repeat center top/ cover;
+}
+
+.project-heading {
+	font-size: 30px;
+	text-align: center;
+	line-height: 16px;
+	letter-spacing: 1.5px;
+	color: #ffffff;
+}
+
+.project-text {
+	display: flex;
+	justify-content: center;
+	max-width: 770px;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 1.26px;
+	margin: auto;
+	padding-top: 50px;
+	text-align: center;
+	color: #c7c7c7;
+}
+
+.image-project-block {
+	padding-top: 30px;
+	}
+
+.img-project {
+	display: flex;
+	justify-content: center;
+}
+
+.btn-bottom {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	max-width: 150px;
+	max-height: 40px;
+	padding: 10px 20px;
+	border: 2px solid #ffffff;
+	color: #000000;
+	font-size: 14px;
+	line-height: 16px;
+	text-transform: uppercase;
+	letter-spacing: 0.12px;
+	}
+
+	.btn-bottom-1 {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	max-width: 150px;
+	max-height: 40px;
+	padding: 10px 20px;
+	border: 2px solid #ffffff;
+	color: #000000;
+	font-size: 14px;
+	line-height: 16px;
+	text-transform: uppercase;
+	letter-spacing: 0.12px;
+	}
+
+.btn-bottom:hover {
+	background-color: #EF9157;
+	color: #fff;
+	border-color:#EF9157;
+}
+
+.footer-bg {
+	background-color: #000000;
+	height: 80px;
+}
+
+.footer-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer-container {
+	position: absolute;
+	left: 0;
+	right: 0;
+	max-width: 1160px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.menu_item-footer {
+	margin-right: 20px;
+}
