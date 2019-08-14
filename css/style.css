@@ -17,20 +17,13 @@ body {
 	justify-content: space-between;
 }
 
-.header-wrap {
-	position: fixed;
-	left: 0;
-	right: 0;
-}
-
 header {
-	position: absolute;
+	position: fixed;
 	top: 29px;
 	right: 0;
 	left: 0;
 	z-index: 99;
 }
-
 
 .logo-site {
 	display: flex;
@@ -108,7 +101,6 @@ h1 .wcol {
 
 /*banner*/
 .banner {
-	position: relative;
 	text-align: center;
 	padding: 30px;
 	max-height: 800px;
@@ -130,16 +122,12 @@ h1 .wcol {
 
 .or {
 /* Style for "OR" */
-	width: 21px;
-	height: 11px;
+	margin-top: 20px;
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
 	font-weight: bold;
 	line-height: 16px;
-	margin: inherit;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	text-transform: uppercase;
 	/* Text style for "O, R" */
 	letter-spacing: 0.14px;
@@ -148,22 +136,18 @@ h1 .wcol {
 .img-media {
 	width: 100px;
 	height: 50px;
-	display: block;
-	margin: inherit;
 	padding-top: 20px;
 }
 
 /*Почему стили на саму кнопку и текст пишутся в одном блоке*/
 .btn {
 	display: inline-block;
-	vertical-align: middle;
 	margin-top: 20px;
 	max-width: 200px;
 	max-height: 70px;
 	padding: 10px 20px;
 	border: 2px solid #ffffff;
 	color: #ffffff;
-	font-size: 14px;
 	line-height: 16px;
 	text-transform: uppercase;
 	/* Text style for "S, IGN UP" */
@@ -177,18 +161,15 @@ h1 .wcol {
 }
 
 .contact {
-	position: absolute;
 	text-align: center;
 	display: flex;
 	justify-content: center;
 	padding: 20px;
-	left: 0;
-	right: 0;
 	background-color: #000000;
 }
 
 .bg {
-	height: 425px;
+	height: 390px;
 	background-color: #120d11;
 } 
 
@@ -197,17 +178,16 @@ h1 .wcol {
 }
 
 .about-us {
-	position: absolute;
-	margin-top: 50px;
+	text-align: center;
+	margin-top: 20px;
 	font-size: 30px;
 }
 
 .text-about-us {
-	display: flex;
-	justify-content: center;
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
 	max-width: 770px;
-	position: absolute;
-	top: 130px;
 	font-size: 14px;
 	line-height: 30px;
 	letter-spacing: 1.26px;
@@ -216,38 +196,44 @@ h1 .wcol {
 }
 
 .horizontal-line {
-	position: absolute;
-	top: 360px;
+	margin-top: 40px;
 	width: 550px;
 	size: 2px;
-	align-content: center;
 	border-color: #f3ad7d;
-	/*как поставить цвет на горизонтальную полоску?*/
 }
 
 .our-services-bg {
 	max-height: 420px;
-	padding: 30px;
+	padding: 20px;
 	background: url(../img/our-services-bg.png) no-repeat center top/ cover;
 }
 
-.our-services {
+.container-services {
 	display: flex;
-	flex-direction: column;
-	list-style: none;
-	position: relative;
-	left: 200px;
-	max-width: 346px;
+	margin-bottom: 20px;
+}
+
+.col-left {
+	width: 50%;
+	padding-right: 30px;
+}
+
+.our-services {
+	max-width: 700px;
 	text-align: right;
+	margin: auto;
 	color: #c7c7c7;
-	}
+}
 
 .head-of-services {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
 	font-size: 30px;
 	line-height: 16px;
 	letter-spacing: 1.5px;
 	color: #c7c7c7;
-	}
+}
 
 .services-item {
 	margin-bottom: 25px;
@@ -273,13 +259,13 @@ h1 .wcol {
 }
 
 .icons-services-style {
-	margin: 20px;
+	margin: 10px;
 }
-/* когда убираю высоту фона кнопка почему то улетает ниже блока*/
+
 .project-bg {
 	text-align: center;
 	height: 520px;
-	padding: 50px;
+	padding: 30px;
 	background: url(../img/project-bg.png) no-repeat center top/ cover;
 }
 
@@ -314,9 +300,9 @@ h1 .wcol {
 }
 
 .btn-bottom {
-	display: flex;
+	display: inline-block;
 	justify-content: center;
-	position: absolute;
+	margin: 30px;
 	max-width: 150px;
 	max-height: 40px;
 	padding: 10px 20px;
@@ -326,22 +312,7 @@ h1 .wcol {
 	line-height: 16px;
 	text-transform: uppercase;
 	letter-spacing: 0.12px;
-	}
-
-	.btn-bottom-1 {
-	display: flex;
-	justify-content: center;
-	position: absolute;
-	max-width: 150px;
-	max-height: 40px;
-	padding: 10px 20px;
-	border: 2px solid #ffffff;
-	color: #000000;
-	font-size: 14px;
-	line-height: 16px;
-	text-transform: uppercase;
-	letter-spacing: 0.12px;
-	}
+}
 
 .btn-bottom:hover {
 	background-color: #EF9157;
